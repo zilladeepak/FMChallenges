@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Frontend Mentor Challenges</title>
+    <script src="https://kit.fontawesome.com/9dc466c81b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="heading">
+        <h1>My Frontend Mentor Challenges</h1>
+        <p>@zilladeepak</p>
+        <div class="theme">
+            <img id="icon" src="light.png">
+        </div>
+    </header>
+
+
+    <section class="card-list">
+        <article class="card">
+            <header class="card-header">
+                <p>Challenge 1</p>
+                <h2>QR code component</h2>
+            </header>
+            <img src="Challenge 1.jpg" alt="">
+
+            <footer>
+            <a href=""><span class="btn">Preview</span></a>
+            <a href=""><span class="btn btn-outline">Github</span></a>
+            <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H"><span class="btn">Challenge</span></a>
+            </footer>
+
+        </article>
+
+        <article class="card">
+            <header class="card-header">
+                <p>Challenge 2</p>
+                <h2>NFT preview card component</h2>
+            </header>
+
+            <img src="Challenge 2.jpg" alt="">
+            
+            <footer>
+                <a href=""><span class="btn">Preview</span></a>
+                <a href=""><span class="btn btn-outline">Github</span></a>
+                <a href=https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U"><span class="btn">Challenge</span></a>
+            </footer>
+
+        </article>
+
+        <article class="card">
+            <header class="card-header">
+                <p>Challenge 3</p>
+                <h2>Order summary component</h2>
+            </header>
+
+            <img src="Challenge 3.jpg" alt="">
+            
+            <footer>
+                <a href=""><span class="btn">Preview</span></a>
+                <a href=""><span class="btn btn-outline">Github</span></a>
+                <a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj"><span class="btn">Challenge</span></a>
+            </footer>
+
+        </article>
+
+        <article class="card">
+            <header class="card-header">
+                <p>Challenge 4</p>
+                <h2>Social proof section</h2>
+            </header>
+
+            <img src="Challenge 4.jpg" alt="">
+
+            <footer>
+        <a href=""><span class="btn">Preview</span></a>
+        <a href=""><span class="btn btn-outline">Github</span></a>
+        <a href="https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA"><span class="btn">Challenge</span></a>
+            </footer>
+
+        </article>
+    </section>
+
+
+    <footer class="footer">
+        <p class="content">&copy; zilladeepak 2022</p>
+        <ul class="icons">
+            <li><a href="https://github.com/zilladeepak"><i class="fa-brands fa-github fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/zillasaimanideepak/"><i class="fa-brands fa-linkedin fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/hvz_deepak_zilla/"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+        </ul>
+        
+        <script>
+            var icon = document.getElementById("icon");
+                icon.onclick = function () {
+                    document.body.classList.toggle("light-theme");
+                    if (document.body.classList.contains("light-theme")) {
+                        icon.src = "moon.png";
+                    } else {
+                        icon.src = "light.png";
+                    }
+                }
+
+        </script>
+        
+        
+    </footer>
+</body>
+</html>
